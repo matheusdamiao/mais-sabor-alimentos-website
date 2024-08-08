@@ -10,6 +10,7 @@ import EngineerSectionHomePage from "../components/sections/EngineerSectionHomeP
 import TeamHomePage from "../components/sections/TeamHomePage"
 import CTASectionHomePage from "../components/sections/CTASectionHomePage"
 import Footer from "../components/sections/Footer"
+import { SEO } from "../components/Seo"
 
 
 const IndexPage: React.FC<PageProps> = () => {
@@ -31,4 +32,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title> Mais Sabor - Alimentação - Home</title>
+export const Head: HeadFC = () => <SEO title="Mais Sabor - Alimentação - Home" />;

@@ -4,6 +4,7 @@ import React from 'react'
 import CTASectionHomePage from "../components/sections/CTASectionHomePage"
 import HeroSectionContato from "../components/sections/HeroSectionContato"
 import FormSection from "../components/Form"
+import { SEO } from "../components/Seo"
 
 const IndexPage: React.FC<PageProps> = () => {
     return (
@@ -18,4 +19,4 @@ const IndexPage: React.FC<PageProps> = () => {
   
   export default IndexPage
   
-  export const Head: HeadFC = () => <title>Mais Sabor - Alimentação - Contato </title>
+  export const Head: HeadFC = () => <SEO title="Mais Sabor - Alimentação - Contato" />;
