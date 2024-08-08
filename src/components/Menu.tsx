@@ -36,8 +36,8 @@ const MenuHome = () => {
               
               <Link to='/'><div className='lg:block hidden'><img src={logoBranca} width={250} height={83} alt='' className=''/></div></Link>
               <ul className='hidden absolute right-16 gap-[50px] sm:flex items-center'>
-                <li><a href="/#inscricao" className='text-base lg:text-xl text-white  text-nowrap hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Sobre nós</a></li>
-                <li><a href="/contato" className='text-base lg:text-xl text-white  text-nowrap hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Contato</a></li>
+                <li><a href="/" className='text-base lg:text-xl text-white  text-nowrap hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Sobre nós</a></li>
+                <li><Link to="/contato" className='text-base lg:text-xl text-white  text-nowrap hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Contato</Link></li>
               </ul>
             </div>
   
@@ -54,23 +54,16 @@ const MenuHome = () => {
           <div className='absolute top-0 translate-x-[0px] duration-500 transition-all bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 bg-lightGray w-full h-[400px]'>
             <ul className='px-[20px] pt-[95px] flex flex-col gap-4 items-center text-white' >
               <li className='py-spacing-lg px-spacing-xl'>
-                <a href='/#opremio' onClick={()=> setIsOpen(!isOpen)} className='text-primary-base-white font-semibold hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>O Prêmio</a>
+                <Link to='/' onClick={()=> setIsOpen(!isOpen)} className='text-primary-base-white font-semibold hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Home</Link>
               </li>
               <li className='py-spacing-lg px-spacing-xl'>
-                <a href='/#edicao2024' onClick={()=> setIsOpen(!isOpen)} className='text-primary-base-white font-semibold hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Edição 2024</a>
-              </li>
-              <li className='py-spacing-lg px-spacing-xl '>
-                <a href='/#informacoes' onClick={()=> setIsOpen(!isOpen)} className='text-primary-base-white font-semibold hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]' >Informações</a>
+                <Link to='/' onClick={()=> setIsOpen(!isOpen)} className='text-primary-base-white font-semibold hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Sobre nós</Link>
               </li>
               <li className='py-spacing-lg px-spacing-xl'>
-                <a href='/#inscricao' onClick={()=> setIsOpen(!isOpen)} className='text-primary-base-white font-semibold hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Inscreva-se</a>
+                <Link to='/contato' onClick={()=> setIsOpen(!isOpen)} className='text-primary-base-white font-semibold hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Contato</Link>
               </li>
-              <li className='py-spacing-lg px-spacing-xl'>
-                <a href='/#contato' onClick={()=> setIsOpen(!isOpen)} className='text-primary-base-white font-semibold hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Contato</a>
-              </li>
-              <li className='py-spacing-lg px-spacing-xl'>
-                <a href='/login' onClick={()=> setIsOpen(!isOpen)} className='text-primary-base-white font-semibold hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Login</a>
-              </li>
+             
+         
             </ul>
           </div>
           :

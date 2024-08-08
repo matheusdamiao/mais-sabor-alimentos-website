@@ -3,6 +3,7 @@ import logo from './../../images/logo-branca-variacao.svg'
 import insta from './../../images/icons/instagram.svg'
 import face from './../../images/icons/facebook.svg'
 import linkedin from './../../images/icons/linkedin.svg'
+import { Link } from 'gatsby'
 
 
 const Footer = () => {
@@ -13,10 +14,10 @@ const Footer = () => {
             <div className='flex flex-col col-span-1 h-[100px] gap-[10px]'>
                 <h5 className='text-white font-bold'>SITE</h5>
                 <ul className='grid grid-cols-1 max-w-[400px] '>
-                    <li><a className='text-[#BEBEBE]' href="/#opremio">Quem somos</a></li>
-                    <li><a className='text-[#BEBEBE]' href="/#edicao2024">Como funciona</a></li>
-                    <li><a className='text-[#BEBEBE]' href="/#informacoes">Contato</a></li>
-                    <li><a className='text-[#BEBEBE]' href="/#informacoes">Home</a></li>
+                    <li><a className='text-[#BEBEBE]' href="/">Quem somos</a></li>
+                    <li><a className='text-[#BEBEBE]' href="/">Como funciona</a></li>
+                    <li><Link className='text-[#BEBEBE]' to="/contato">Contato</Link></li>
+                    <li><Link className='text-[#BEBEBE]' to="/">Home</Link></li>
                 </ul>
             </div>
             <div className='flex flex-col lg:pt-0 pt-8 gap-[10px] lg:col-span-2'>
@@ -29,11 +30,11 @@ const Footer = () => {
                 </div>
             </div>
             <div className='flex flex-col h-[100px] gap-[10px] pt-8 lg:pt-0'>
-                <h5 className='text-white font-bold'>SIGA-NOS</h5>
+                {/* <h5 className='text-white font-bold'>SIGA-NOS</h5> */}
                 <div className='flex gap-4'>
-                    <a href="https://www.instagram.com/premiotransatlantico/" aria-label='Visite Premio Transatlantico Instagram' target='_blank' ><img src={insta}  alt='Instagram' /></a>
-                    <a href="https://www.facebook.com/premiolebenskunst" target='_blank' aria-label='Visite Premio Transatlantico Facebook'><img src={face} alt='Facebook'/></a>
-                   <a href="https://www.linkedin.com/company/premiolebenskunst" target='_blank' aria-label='Visite Premio Transatlantico Linkedin'> <img src={linkedin}  alt='Linkedin'/></a>
+                    {/* <a href="https://www.instagram.com/premiotransatlantico/" aria-label='Visite Premio Transatlantico Instagram' target='_blank' ><img src={insta}  alt='Instagram' /></a> */}
+                    {/* <a href="https://www.facebook.com/premiolebenskunst" target='_blank' aria-label='Visite Premio Transatlantico Facebook'><img src={face} alt='Facebook'/></a> */}
+                   {/* <a href="https://www.linkedin.com/company/premiolebenskunst" target='_blank' aria-label='Visite Premio Transatlantico Linkedin'> <img src={linkedin}  alt='Linkedin'/></a> */}
                 </div>
             </div>
         </div>

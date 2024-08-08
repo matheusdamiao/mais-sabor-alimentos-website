@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import zap from './../images/icons/zap.svg'
 import location from './../images/icons/location.svg'
+import mail from './../images/icons/mail.svg'
+
 
 const FormSection = () => {
     const [inputs, setInputs] = useState({ nome: "", empresa: "", phone: "", message: "" });
@@ -87,6 +89,12 @@ const FormSection = () => {
                         <p className="text-sm">+55 21 96462-3598</p>
                     </a>
 
+                    <a href="mailto:contato@maissaboralimentos.com.br" className='flex items-center gap-4'>
+                      <img src={mail} alt="" className="max-w-[40px]"/>
+                      <p className="text-sm">contato@maissaboralimentos.com.br</p>
+
+                    </a>
+
                 </div>
               </div>
                 
@@ -164,7 +172,7 @@ const FormSection = () => {
                         </span>
                     </div>
                     <button
-                    className={`items-center bg-[#EFD93F] text-[#ECF4E4] flex justify-center mt-2 font-title  text-base w-full max-w-sm disabled:opacity-40 bg-amarelo hover:bg-gradient-to-br focus:ring-4 focus:bg-yellow-600 rounded-lg px-5 py-4 text-center mb-2 group-invalid:pointer-events-none group-invalid:opacity-40 group-valid:shadow-2xl group-valid:hover:shadow-none`}
+                    className={`items-center bg-[#EFD93F] text-gray-800 flex justify-center mt-2 font-title  text-base w-full max-w-sm disabled:opacity-40 bg-amarelo hover:bg-gradient-to-br focus:ring-4 focus:bg-yellow-600 rounded-lg px-5 py-4 text-center mb-2 group-invalid:pointer-events-none group-invalid:opacity-40 group-valid:shadow-2xl group-valid:hover:shadow-none`}
                     type="submit"
                     >
                     {isLoading && (
