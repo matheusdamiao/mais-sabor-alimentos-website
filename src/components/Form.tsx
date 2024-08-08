@@ -164,7 +164,7 @@ const FormSection = () => {
                         </span>
                     </div>
                     <button
-                    className={`items-center bg-[#48664E] text-[#ECF4E4] flex justify-center mt-2 font-title  text-base w-full max-w-sm disabled:opacity-40 bg-amarelo hover:bg-gradient-to-br focus:ring-4 focus:ring-green-900 rounded-lg px-5 py-4 text-center mb-2 group-invalid:pointer-events-none group-invalid:opacity-40 group-valid:shadow-2xl group-valid:hover:shadow-none`}
+                    className={`items-center bg-[#EFD93F] text-[#ECF4E4] flex justify-center mt-2 font-title  text-base w-full max-w-sm disabled:opacity-40 bg-amarelo hover:bg-gradient-to-br focus:ring-4 focus:bg-yellow-600 rounded-lg px-5 py-4 text-center mb-2 group-invalid:pointer-events-none group-invalid:opacity-40 group-valid:shadow-2xl group-valid:hover:shadow-none`}
                     type="submit"
                     >
                     {isLoading && (
