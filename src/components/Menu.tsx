@@ -37,7 +37,7 @@ const MenuHome = () => {
               <Link to='/'><div className='lg:block hidden'><img src={logoBranca} width={250} height={83} alt='' className=''/></div></Link>
               <ul className='hidden absolute right-16 gap-[50px] sm:flex items-center'>
                 <li><a href="/#inscricao" className='text-base lg:text-xl text-white  text-nowrap hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Sobre nós</a></li>
-                <li><a href="/#contato" className='text-base lg:text-xl text-white  text-nowrap hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Contato</a></li>
+                <li><a href="/contato" className='text-base lg:text-xl text-white  text-nowrap hover:after:w-full after:w-0 relative  hover:after:h-[4px]  after:bg-yellow hover:after:block after:transition-all after:duration-400 after:absolute after:bottom-[-10px]'>Contato</a></li>
               </ul>
             </div>
   

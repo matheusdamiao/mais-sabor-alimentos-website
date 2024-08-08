@@ -2,8 +2,10 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `lana-website`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Mais Sabor - Alimentação`,
+    description: "Transforme o dia a dia dos seus colaboradores com refeições saudáveis, saborosas e balanceadas.",
+    image: `/icon.png`,
+    siteUrl: `https://maissaborrefeicoes.com.br`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin

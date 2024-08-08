@@ -13,7 +13,7 @@ import logo8 from './../../images/logos/logo-8.svg'
 const Parceiros = () => {
   return (
     <div className='max-w-6xl w-full mx-auto mt-[80px]'>
-        <h3 className='text-center text-[#5C5C5C] text-lg'>Empresas que Confiam em Nós</h3>
+        <h3 className='text-center text-[#5C5C5C] text-lg px-6'>Empresas que Confiam em Nós</h3>
         <div className='flex gap-4 max-w-[800px] items-center justify-center mx-auto  flex-wrap mt-[60px]'>
             <img src={logo1}/>
             <img src={logo2}/>

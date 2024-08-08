@@ -12,8 +12,7 @@ const CardapioSectionHomePage = () => {
                     <h3 className='text-[58px] flex items-center lg:text-[70px]  text-[#33302C] leading-[0px] lg:leading-4'><span className='text-[#E22E46] text-[90px]'>+</span>Sabor</h3>
                 </div>
                 <div className='pt-[80px] lg:max-w-[350px] flex flex-col gap-8 text-[#33302C]'>
-                    <p className='text-base lg:text-xl'>
-                    O cliente determina o escopo inicial dos cardápios em conjunto com nossa área de qualidade, levando em consideração as necessidades nutricionais e hábitos alimentares dos comensais.
+                    <p className='text-base lg:text-xl'> O cliente determina o escopo inicial dos cardápios em conjunto com nossa área de qualidade, levando em consideração as necessidades nutricionais e hábitos alimentares dos comensais.
                     </p>
                     <p className='text-base lg:text-xl'>Todos os cardápios são elaborados em parceria com <span className='font-bold'>cozinheiros e nutricionistas</span>  que harmonizam sabor, saúde e prazer.</p>
                 </div>
